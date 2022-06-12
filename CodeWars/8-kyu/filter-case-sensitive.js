@@ -2,3 +2,5 @@
 function doubleChar(str){
     return str.split("").map(c => c + c).join("");
 }
+// OR 
+const doubleChar = (str) => str.split("").map(c => c + c).join("");
