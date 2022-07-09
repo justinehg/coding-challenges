@@ -13,3 +13,5 @@ function longest(s1, s2) {
   function onlyUnique(value, index, self) { 
       return self.indexOf(value) === index;
   }
+// BETTER SOLUTION
+const longest = (s1, s2) => [...new Set(s1+s2)].sort().join('')
