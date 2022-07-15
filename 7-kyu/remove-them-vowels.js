@@ -2,3 +2,7 @@
 function disemvowel(str) {
     return str.match(/[^aeiou]/gi).join('');  
   }
+// BETTER SOLUTION
+function disemvowel(str) {
+    return str.replace(/[aeiou]/gi, '');
+  }
