@@ -1,4 +1,4 @@
-// 18. Messi is a soccer player with goals in three leagues:
+// Messi is a soccer player with goals in three leagues:
 
 // LaLiga
 // Copa del Rey
