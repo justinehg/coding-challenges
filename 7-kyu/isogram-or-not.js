@@ -13,7 +13,7 @@ function isIsogram(str){
     return true;
  }
 
-//  .OR
+//  OR
 function isIsogram(str){
     return new Set(str.toUpperCase()).size == str.length;
   }
