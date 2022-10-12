@@ -1,6 +1,6 @@
 # Codewars Solutions
 
-A colletion of Javascript problems and my solutions. 
+A colletion of Javascript coding challenges and my solutions. 
 
 ### General format
 
