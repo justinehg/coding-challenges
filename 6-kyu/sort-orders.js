@@ -18,7 +18,7 @@ function order(words){
     return r.join(' ')
   }
 
-//   .OR
+//   OR
 
 function order(words){
   
