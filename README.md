@@ -1,6 +1,6 @@
 # Codewars Solutions
 
-A colletion of Javascript coding challenges and my solutions. 
+A collection of Javascript coding challenges and my solutions. 
 
 ### General format
 
@@ -19,7 +19,7 @@ function something() {
 ```
 ## Lessons Learned:
 
-For the past few months, I've been playing Codewars every day.   The possibilities for learning are limitless and it's amazing to see that there are a huge variety of solutions for a single problem. With the goal of working on Codewars  on a daily basis, this help me become more knowledgeable with JavaScript and discover new ways to solve challenges.
+For the past few months, I've been challenging myself with Codewars problems every day.   The possibilities for learning are limitless and it's amazing to see that there are a huge variety of solutions for a single problem. With the goal of working on Codewars  on a daily basis, this help me become more knowledgeable with JavaScript and discover new ways to solve challenges.
 
 #### Optimizations 
 
