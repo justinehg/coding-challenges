@@ -11,7 +11,7 @@ function alphabetPosition(text) {
       }
       return a.trim();
     }
-// .OR
+// OR
 function alphabetPosition(text) {
     var result = "";
     for (var i = 0; i < text.length; i++){
