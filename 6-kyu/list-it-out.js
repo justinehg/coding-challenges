@@ -12,7 +12,7 @@ const deleteNth = (lst, N) => {
   
     return res;
   }
-// .OR
+// OR
 function deleteNth(arr,x) {
   var cache = {};
   return arr.filter(function(n) {
