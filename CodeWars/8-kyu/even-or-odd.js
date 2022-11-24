@@ -6,7 +6,8 @@ function evenOrOdd(numbers){
         return "Odd";
     }
 }
-    // OR
+
+// OR
 function evenOrOdd(numbers){
     return numbers % 2 ? "Even" : "Odd";
 }
