@@ -5,8 +5,8 @@ function findDifference(a, b) {
 
 // OR
 
-// function findDifference(a, b) {
-//     return Math.abs(a.reduce((a, b) => a * b) - b.reduce((a, b) => a * b))
-// }
+function findDifference(a, b) {
+     return Math.abs(a.reduce((a, b) => a * b) - b.reduce((a, b) => a * b))
+}
 
 // Notes: Math.abs() returns the absolute value of a number, for cases that only wants positive integers.
