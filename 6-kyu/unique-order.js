@@ -9,7 +9,7 @@ var uniqueInOrder=function(iterable){
     
     return result
   }
-// .OR
+// OR
 function uniqueInOrder(it) {
   var result = []
   var last
