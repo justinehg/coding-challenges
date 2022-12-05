@@ -6,7 +6,7 @@ function arithmetic(a, b, operator) {
     if (operator === 'multiply') return a * b;
     if (operator === 'divide') return a / b;
   }
-// BETTER SOLUTION
+// OR
 function arithmetic(a, b, operator){
     switch(operator) {
       case 'add':
