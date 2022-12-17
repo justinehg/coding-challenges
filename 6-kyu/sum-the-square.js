@@ -7,7 +7,6 @@ function squareSum(numbers) {
     return sum
 }
 
-// MORE EFFICIENT SOLUTION
-function squareSum(numbers){
+// OR
     return numbers.reduce((sum,num) => sum + (num * num), 0);
   }
