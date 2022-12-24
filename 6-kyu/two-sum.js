@@ -8,7 +8,7 @@ function twoSum(numbers, target) {
     }
   }
 
-//   .OR
+// OR
 function twoSum(numbers, target) {
     for (var i = 0; i < numbers.length-1; i++) {
         for (var j = i+1; j < numbers.length; j++) {
