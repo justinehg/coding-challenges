@@ -9,4 +9,4 @@ function findDifference(a, b) {
      return Math.abs(a.reduce((a, b) => a * b) - b.reduce((a, b) => a * b))
 }
 
-// Note: Math.abs() returns the absolute value of a number, for cases that only wants positive integers.
+
