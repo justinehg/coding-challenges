@@ -3,6 +3,6 @@ function square(n) {
     return n*n;
 }
 
-// OR
+// MORE EFFICIENT SOLUTION
 
 const square = (n) => n * n;
