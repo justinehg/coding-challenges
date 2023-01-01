@@ -3,7 +3,7 @@ function shortcut(string){
     return string.replace(/[aeiou]+/g, "");
   }
 
-// .OR
+// OR
 function shortcut(string){
     return string.replace(/[aeiou]/g,'')
   }
