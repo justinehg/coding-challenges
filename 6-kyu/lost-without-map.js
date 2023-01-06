@@ -5,6 +5,6 @@ function maps(x) {
     return x.map(n => n * 2);
 }
 
-// MORE EFFICIENT SOLUTION.
+// OR
 
 maps = x => x.map(n => n * 2);
