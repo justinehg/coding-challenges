@@ -15,7 +15,7 @@ function longestConsec(strarr, k) {
     
     return longStr;
 }
-// MORE EFFICIENT
+// OR
 function longestConsec(strarr, k) {
     var longest = "";
     for(var i=0;k>0 && i<=strarr.length-k;i++){
