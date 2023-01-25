@@ -1,4 +1,4 @@
-// Welcome. In this kata, you are asked to square every digit of a number and concatenate them.
+// In this kata, you are asked to square every digit of a number and concatenate them.
 function squareDigits(num){
     let newNum = new Array();
         ('' + num).split('').map(n => {
