@@ -7,7 +7,7 @@ function squareDigits(num){
     
     return parseInt(newNum.join(''));
 }
-// MORE EFFICIENT SOLUTION
+// OR
 function squareDigits(num){
     return Number(('' + num).split('').map(function (val) { return val * val;}).join(''));
     
