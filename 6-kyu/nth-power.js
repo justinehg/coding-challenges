@@ -3,6 +3,6 @@ function index(arr, n){
     return (arr.length <= n) ? -1 : Math.pow(arr[n], n) 
   }
 
-// MORE EFFICIENT SOLUTION
+// OR
 
 const index = (array, n) => array.length > n ? Math.pow(array[n], n) : -1;
