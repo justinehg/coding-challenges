@@ -13,7 +13,7 @@ function fixPipes(numbers) {
     return result;
 }
 
-// .OR
+// OR
 
 function pipeFix(numbers){
     let first = numbers[0];
