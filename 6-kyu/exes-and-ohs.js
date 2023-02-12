@@ -13,7 +13,7 @@ function XO(str) {
     return x === o;
 }
 
-// .OR
+// OR
 
 function XO(str) {
     let x = str.match(/x/gi);
