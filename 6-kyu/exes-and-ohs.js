@@ -14,7 +14,6 @@ function XO(str) {
 }
 
 // OR
-
 function XO(str) {
     let x = str.match(/x/gi);
     let o = str.match(/o/gi);
