@@ -3,5 +3,5 @@ function getChar(c) {
     return String.fromCharCode(c)
 }
 
-// OR
+// MORE EFFICIENT SOLUTION
 const getChar = String.fromCharCode;
