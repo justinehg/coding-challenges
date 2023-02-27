@@ -16,7 +16,7 @@ function peopleWithAgeDrink(old) {
       return ("drink whisky");
       }
   };
-// MORE EFFICIENT SOLUTION
+// OR
 
 const peopleWithAgeDrink = (age) =>
   age < 14 ? "drink toddy" :
