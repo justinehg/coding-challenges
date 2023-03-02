@@ -14,7 +14,7 @@ function highAndLow(numbers){
     return Math.max(...numbers) +" "+ Math.min(...numbers);
   }
 
-// MORE EFFICIENT SOLUTION
+// OR
 
 function highAndLow(numbers){
   numbers = numbers.split(' ').map(Number);
