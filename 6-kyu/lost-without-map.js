@@ -5,6 +5,4 @@ function maps(x) {
     return x.map(n => n * 2);
 }
 
-// OR
 
-maps = x => x.map(n => n * 2);
