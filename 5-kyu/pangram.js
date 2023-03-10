@@ -13,7 +13,7 @@ const isPangram = (string) => {
     }
     return true;
   }
-//   MORE EFFICIENT SOLUTION.
+//   MORE EFFICIENT SOLUTION
 
 function isPangram(string){
     string = string.toLowerCase();
