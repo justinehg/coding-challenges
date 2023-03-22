@@ -4,7 +4,7 @@ function filter_list(l) {
   }
   console.log(filter_list([1, 'a', 'b', 0, 15]));
 
-//   MORE EFFICIENT SOLUTION.
+//   OR
 
 function filter_list(l) {
     return l.filter(function(v) {return typeof v == 'number'})
