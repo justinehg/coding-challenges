@@ -8,7 +8,7 @@ function sumDigits(number) {
     return sum;
   }
   
-  // MORE EFFICIENT SOLUTION.
+  // MORE EFFICIENT SOLUTION
 
 sumDigits = number => Math.abs(number).toString().split('').reduce((s, e) => s + +e, 0);
 
