@@ -11,8 +11,4 @@ function sumDigits(number) {
 // OR
 sumDigits = number => Math.abs(number).toString().split('').reduce((s, e) => s + +e, 0);
 
-// OR
 
-function sumDigits(number) {
-    return Math.abs(number).toString().split('').reduce(function(a,b){return +a + +b}, 0);
-  }
