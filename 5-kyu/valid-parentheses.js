@@ -1,5 +1,4 @@
 // Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
-// Example: Input: s = "()[]{}" then Output: true
 
 function isValid(s) {
     let bracket = {
