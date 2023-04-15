@@ -5,3 +5,9 @@ function descendingOrder(n){
     digits = digits.join("");
     return Number(digits);
   }
+
+// .MORE EFFICIENT SOLUTION
+
+function descendingOrder(n){
+    return parseInt(String(n).split('').sort().reverse().join(''))
+  }
