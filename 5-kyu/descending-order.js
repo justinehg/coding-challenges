@@ -6,7 +6,7 @@ function descendingOrder(n){
     return Number(digits);
   }
 
-// .MORE EFFICIENT SOLUTION
+// OR
 
 function descendingOrder(n){
     return parseInt(String(n).split('').sort().reverse().join(''))
