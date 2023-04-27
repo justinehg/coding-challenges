@@ -7,7 +7,7 @@ function count (string) {
     return count;
   }
 
-// MORE EFFICIENT SOLUTION
+// OR
 
 function count (string) {
     return string.split('').reduce(function(counts,char){
