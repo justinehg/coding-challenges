@@ -9,4 +9,4 @@
 function litres(time) {
     return Math.floor(time * 0.5)
     }
-    // Notes: every hour(time), Nathan will drink 0.5; Math.floor is to round the result in whole number(smallest integer)
+  
