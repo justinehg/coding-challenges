@@ -3,10 +3,5 @@ function findDifference(a, b) {
     return Math.abs(a.reduce((previous, current) => previous * current) - b.reduce((previous, current) => previous * current));
 }
 
-// OR
-
-function findDifference(a, b) {
-     return Math.abs(a.reduce((a, b) => a * b) - b.reduce((a, b) => a * b))
-}
 
 
