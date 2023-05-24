@@ -3,5 +3,3 @@ function getChar(c) {
     return String.fromCharCode(c)
 }
 
-// OR
-const getChar = String.fromCharCode;
