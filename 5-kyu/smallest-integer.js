@@ -9,3 +9,12 @@ class SmallestIntegerFinder {
       return Math.min(...args)
     }
   }
+
+
+//   DIFFERENT APPROACH
+
+class SmallestIntegerFinder {
+    findSmallestInt(args) {
+      return args.sort((a,b)=>a-b)[0];
+    }
+  }
