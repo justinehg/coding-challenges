@@ -11,7 +11,7 @@ class SmallestIntegerFinder {
   }
 
 
-//   DIFFERENT APPROACH
+//   OR
 
 class SmallestIntegerFinder {
     findSmallestInt(args) {
