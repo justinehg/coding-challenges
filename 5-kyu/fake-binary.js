@@ -6,3 +6,9 @@ function fakeBin(x) {
       Number(arr[i]) < 5 ? newStr.push(0) : newStr.push(1);
     }
 }
+
+// BETTER APPROACH
+
+function fakeBin(x) {
+    return x.split('').map(n => n < 5 ? 0 : 1).join('');
+}
