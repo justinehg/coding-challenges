@@ -11,6 +11,6 @@ function findEvenIndex(arr)
   
   return -1;
 }
-// .MORE EFICIENT SOLUTION
+// OR
 const sum = (a, from, to) => a.slice(from, to).reduce((a, b) => a + b, 0)
 const findEvenIndex = a => a.findIndex((el, i) => sum(a, 0, i) === sum(a, i + 1));
