@@ -4,6 +4,6 @@ function removeSmallest(numbers) {
     return [...numbers.slice(0, indexOfMin), ...numbers.slice(indexOfMin + 1)];
   }
 
-// OR.
+// OR
 
 const removeSmallest = numbers => numbers.filter((n,i) => i !== numbers.indexOf(Math.min(...numbers)));
