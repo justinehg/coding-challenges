@@ -9,7 +9,7 @@ var isAnagram = function(test, original) {
     return (t==o)?true:false;
   };
 
-// .DIFFERENT APPROACH
+// .OR
 
 String.prototype.sortLetters = function() {
     return this.toLowerCase().split('').sort().join('');
