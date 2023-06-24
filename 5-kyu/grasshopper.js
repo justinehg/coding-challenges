@@ -1,5 +1,4 @@
-// Create these three variables and store the appropriate values using the table above:
-// Create a fourth variable named totalGoals that stores the sum of all of Messi's goals for this year.
+// Create these three variables and store the appropriate values using the table above Create a fourth variable named totalGoals that stores the sum of all of Messi's goals for this year.
 
 var laLigaGoals = 43
 var championsLeagueGoals = 10
