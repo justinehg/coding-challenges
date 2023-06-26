@@ -5,7 +5,7 @@ var isAnagram = function(test, original) {
     return (t==o)?true:false;
   };
 
-// .OR
+// OR
 
 String.prototype.sortLetters = function() {
     return this.toLowerCase().split('').sort().join('');
