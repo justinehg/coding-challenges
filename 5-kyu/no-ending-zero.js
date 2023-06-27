@@ -10,7 +10,7 @@ function noBoringZeros(n) {
     return n;
   }
 
-//   ANOTHER APPROACH
+//   OR
 function noBoringZeros(n) {
     return +`${n}`.replace(/0*$/, "");
   }
