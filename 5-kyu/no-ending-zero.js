@@ -2,8 +2,6 @@
 // Examples: 
 // 1450 -> 145
 // 960000 -> 96
-// 1050 -> 105
-// -1050 -> -105
 
 function noBoringZeros(n) {
     while(n%10==0 && n!=0){n/=10;}
