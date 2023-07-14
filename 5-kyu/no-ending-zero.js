@@ -4,7 +4,4 @@ function noBoringZeros(n) {
     return n;
   }
 
-//   OR
-function noBoringZeros(n) {
-    return +`${n}`.replace(/0*$/, "");
-  }
+
