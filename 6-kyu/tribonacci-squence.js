@@ -1,4 +1,4 @@
-// Create a function that given a signature array/list, returns the first n elements - signature included of the so-seeded sequence.
+// Write a function that given a signature array/list, returns the first n elements - signature included of the so-seeded sequence.
 function tribonacci(signature,n) {
     var trib = signature;
     for (i = 3; i < n; i++) {
