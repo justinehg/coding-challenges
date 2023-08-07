@@ -2,7 +2,7 @@ var interactive = {};
 interactive.interview = {};
 
 /**
- * A skeleton class 
+ * A skeleton class here
  */
 interactive.interview.ExpressionParser = (function () {
   var ExpressionParser = function () {};
