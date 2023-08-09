@@ -11,7 +11,7 @@ function likes(names) {
     }
   }
 
-OR
+// OR
 function likes(names) {
      return {
        0: 'no one likes this',
