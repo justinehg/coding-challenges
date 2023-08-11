@@ -2,7 +2,7 @@ var interactive = {};
 interactive.interview = {};
 
 /**
- * A skeleton class for the INT interview programming challenge
+ * A skeleton class 
  */
 interactive.interview.ExpressionParser = (function () {
   var ExpressionParser = function () {};
