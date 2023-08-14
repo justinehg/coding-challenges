@@ -4,12 +4,6 @@ interactive.interview = {};
 interactive.interview.ExpressionParser = (function () {
   var ExpressionParser = function () {};
 
-  /**
-   * Evaluates a mathematical expression and returns the result
-   *
-   * @param {String} expression - An RPN expression
-   * @return {Number} - The result from evaluating the expression
-   */
   ExpressionParser.prototype.parse = function (expression) {
     const stack = [];
     const tokens = expression.split(/\s+/);
