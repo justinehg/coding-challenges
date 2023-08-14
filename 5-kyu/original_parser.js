@@ -1,9 +1,6 @@
 var interactive = {};
 interactive.interview = {};
 
-/**
- * A skeleton class 
- */
 interactive.interview.ExpressionParser = (function () {
   var ExpressionParser = function () {};
 
@@ -72,7 +69,7 @@ interactive.interview.ExpressionParser = (function () {
       throw new Error('Invalid expression: ' + expression);
     }
 
-    // Return the final result from the top of the stack
+    // Return the final result
     return stack.pop();
   };
 
