@@ -1,9 +1,6 @@
 var interactive = {};
 interactive.interview = {};
 
-/**
- * A skeleton class here
- */
 interactive.interview.ExpressionParser = (function () {
   var ExpressionParser = function () {};
 
