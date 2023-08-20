@@ -1,4 +1,4 @@
-// Given a string, replace every letter with its position in the alphabet.
+// Replace every letter with its position in the alphabet.
 function alphabetPosition(text) {
     var result = "";
     for (var i = 0; i < text.length; i++){
