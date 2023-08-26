@@ -1,4 +1,4 @@
-// Write a solution so that it reverses the string passed into it.
+// Create a solution so that it reverses the string passed into it.
 function solution(str){
     return str.split('').reverse().join('');
   }
