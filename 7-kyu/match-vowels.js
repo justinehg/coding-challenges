@@ -11,6 +11,6 @@ function getCount(str) {
     return vowelsCount;
   }
 
-// OR.
+// MORE EFFICIENT SOLUTION
 function getCount(str) {
     return (str.match(/[aeiou]/ig)||[]).length;
