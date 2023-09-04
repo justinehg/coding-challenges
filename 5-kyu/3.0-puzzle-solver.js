@@ -1,4 +1,4 @@
-// Fin solution using Breadth-first search. With HOT URL and API endpoints, need to replace HOST URL with actual HOST NAME
+// Final solution using Breadth-first search. With HOT URL and API endpoints, need to replace HOST URL with actual HOST NAME
 const https = require('https');
 
 const HOST_URL = 'https://code-test-sliding-squares-rrskuhktnq-uc.a.run.app';
