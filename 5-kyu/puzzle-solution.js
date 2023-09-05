@@ -125,14 +125,4 @@ const args = process.argv.slice(2);
 const [size, difficulty] = args;
 main(size, difficulty);
 
-
-// Note: For this solution, you'll need to install the `priorityqueuejs` library:
-// npm install priorityqueuejs
-
-
-// Run the program using:
-// bash
-// node solver.js 3 8
-
-
 // The A* algorithm with the Manhattan distance heuristic tends to be faster than BFS for this kind of puzzle, especially as the grid size or difficulty increases.
