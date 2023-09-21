@@ -33,7 +33,7 @@ interactive.interview.ExpressionParser = (function () {
 
     for (const token of tokens) {
       if (!isNaN(token)) {
-        // If the token is a number (operand), push it into the stack
+        // If the token is a number, then push it into the stack
         stack.push(parseInt(token, 10));
       } else if (/^\+|-|\*|\/|%|&|\||\^$/.test(token)) {
         // If the token is a valid binary operator, perform the operation
