@@ -1,6 +1,5 @@
 // Build a program that finds the sequence of moves to solve a sliding squares puzzle using node.js. The grid is then scrambled by moving numbers into an adjacent empty square. To solve the puzzle, the numbers must be unscrambled in the same way, by sliding numbers into the empty square. A properly solved puzzle has all of its numbers sorted in row-first order, with the lowest number in the top left and the empty square in the bottom right.
 // Provide an A* solution for the sliding puzzle. The A* algorithm works by using both a cost function to get to the current state and a heuristic function to estimate the cost to get to the goal state.
-
 // For the sliding puzzle, we can use the Manhattan distance as a heuristic. The Manhattan distance for a tile is the distance between its current position and its position in the goal configuration. The heuristic for the entire puzzle is the sum of the Manhattan distances for each tile.
 
 const axios = require('axios');
